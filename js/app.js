@@ -35,5 +35,11 @@ checkMatchBtn.addEventListener('click',(e)=> {
             arr = arr.filter(e => e !== repeatedCharsArray[j]);
         }
     }
-    console.log(arr);
+    // GETTING ARRAY VALUE AFTER REMOVE REPEATED CHARACTERS
+    var finalName = arr.join('').toString(); // convert array to string
+    // GETTING NAME LENGTH WHICH IS SIMPORTANT FOR OUR GAME
+    var finamNameLength = arr.join('').toString().length;
+
+    console.log('FINAL NAME : ' + finalName);
+    console.log('FINAL NAME LENGTH : ' + finalNameLength);
 })
