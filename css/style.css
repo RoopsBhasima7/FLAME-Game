@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    background: #f953c6;
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    background: linear-gradient(to right, #b91d73, #f953c6);
+}
+.container{
+    position: relative;
+    max-width: 992px;
+}
+.container .gameTitle{
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.gameBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gameBox .inputBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gameBox .inputBox input{
+    position: relative;
+    border: 2px solid #ed213a;
+    outline: none;
+    padding: 6px;
+    font-size: 1.3rem;
+    background: #fff;
+    border-radius: 5px;
+    color: #eb223a;
+    margin: 0 1rem;
+}
+.gameBox .inputBox label{
+   display: block;
+   position: relative;
+   color: #fff;
+   margin-top: 5px;
+}
+.buttonBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.buttonBox button{
+    display: block;
+    outline: none;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    color: #ed213a;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.buttonBox button img{
+    width: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.matchResultBox{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    border: 2px dashed #ed231a;
+    padding: 6px;
+    color: #ed231a;
+    font-size: 1.4rem;
+    font-family: 'Indied Flower', cursive;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.matchResultBox.visible{
+    visibility: visible;
+}
