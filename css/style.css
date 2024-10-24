@@ -90,6 +90,9 @@ html, body{
     transform: translate(-50%, -50%);
     display: none;
 }
+.buttonBox button#tryAgainBtn {
+    display: none;
+}
 .matchResultBox{
     position: relative;
     width: 500px;
