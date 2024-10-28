@@ -14,7 +14,7 @@ A fun and interactive **FLAMES Game** built using JavaScript. The FLAMES game is
 To play the FLAMES game, you only need a web browser.
 
 ### Preview Image
-![FLAMES Game Preview](assets/flames-game.png)
+![FLAMES Game Preview](images/flames-game.png)
 
 ### Installation
 1. Clone this repository:
