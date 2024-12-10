@@ -19,4 +19,4 @@ To play the FLAMES game, you only need a web browser.
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/flames-game.git
+   git clone https://github.com/RoopsBhasima7/flames-game.git
